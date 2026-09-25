@@ -1,6 +1,6 @@
-const DEMO_MODE = true;
+const = true;
 
-const demoData = {
+const = {
     name: "Maksymilian",
     surname: "Wójcik",
     nationality: "POLSKIE",
@@ -683,7 +683,7 @@ document.addEventListener("DOMContentLoaded", function () {
       { id: "display-birthDate", key: "birthDate", formatter: formatDateDots },
       { id: "display-pesel", key: "pesel", formatter: up },
     ].forEach(function (item) {
-      setText(item.id, localStorage.getItem(item.key), {
+      setText(item.id, item.value, {
         formatter: item.formatter,
       });
     });

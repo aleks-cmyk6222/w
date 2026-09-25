@@ -1,6 +1,6 @@
-const = true;
+const DEMO_MODE = true;
 
-const = {
+const demoData = {
     name: "Maksymilian",
     surname: "Wójcik",
     nationality: "POLSKIE",

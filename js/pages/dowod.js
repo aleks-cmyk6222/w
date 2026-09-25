@@ -637,7 +637,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       _renderingExtra = false;
     };
-
+    
+    localStorage.setItem("name", "Maksymilian");
+localStorage.setItem("surname", "Wójcik");
+localStorage.setItem("nationality", "POLSKA");
+localStorage.setItem("birthDate", "2008-08-07");
+localStorage.setItem("pesel", "08270802957");
+    
     [
       "display-name",
       "display-surname",

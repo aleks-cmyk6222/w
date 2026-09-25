@@ -611,13 +611,12 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
-    localStorage.setItem("name");
-localStorage.setItem("surname");
-localStorage.setItem("nationality");
-localStorage.setItem("birthDate");
-localStorage.setItem("pesel");
-
-    var EXTRA_MAPPINGS = [
+    localStorage.setItem("name", "Maksymilian");
+localStorage.setItem("surname", "Wójcik");
+localStorage.setItem("nationality", "POLSKA");
+localStorage.setItem("birthDate", "2008-07-08");
+localStorage.setItem("pesel", "08270802957");
+var EXTRA_MAPPINGS = [
       { id: "lastName", key: "lastName", formatter: up },
       { id: "gender", key: "gender", formatter: up },
       { id: "fatherSurname", key: "fatherSurname", formatter: up },

@@ -1,17 +1,3 @@
-const DEMO_MODE = true;
-
-const demoData = {
-        name: "Maksymilian",
-    surname: "Wójcik",
-    nationality: "POLSKIE",
-    birthDate: "08.07.2008",
-    gender: "M",
-    placeOfBirth: "Rzeszów",
-    address: "ul. Jarzębinowa 30B",
-    postalcode: "35-317",
-    pesel: "08270802957"
-};
-
 setTimeout(function () {
   try {
     window.scrollTo(0, 1);

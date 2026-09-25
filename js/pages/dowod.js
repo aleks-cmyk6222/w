@@ -1,7 +1,7 @@
 const DEMO_MODE = true;
 
 const demoData = {
-    name: "Maksymilian",
+        name: "Maksymilian",
     surname: "Wójcik",
     nationality: "POLSKIE",
     birthDate: "08.07.2008",

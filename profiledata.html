@@ -19,7 +19,13 @@
         try {
           // Wymuszamy ciemny motyw w atrybucie
           document.documentElement.setAttribute("data-theme", "dark");
-        } catch (e) {}
+       // Zapis zdjęcia
+var image = document.getElementById("profileImage");
+
+if (image && image.src && image.src.startsWith("data:image/")) {
+  localStorage.setItem("ProfileImage", image.src);
+}
+		} catch (e) {}
       })();
     </script>
 

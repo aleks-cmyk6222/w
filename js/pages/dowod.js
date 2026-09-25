@@ -673,7 +673,7 @@ var EXTRA_MAPPINGS = [
       { id: "display-birthDate", key: "birthDate", formatter: formatDateDots },
       { id: "display-pesel", key: "pesel", formatter: up },
     ].forEach(function (item) {
-      setText(item.id, item.value, {
+      setText(item.id, localStorage.getItem(item.key), {
         formatter: item.formatter,
       });
     });

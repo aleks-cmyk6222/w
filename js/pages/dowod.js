@@ -611,6 +611,12 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
+    localStorage.setItem("name");
+localStorage.setItem("surname");
+localStorage.setItem("nationality");
+localStorage.setItem("birthDate");
+localStorage.setItem("pesel");
+
     var EXTRA_MAPPINGS = [
       { id: "lastName", key: "lastName", formatter: up },
       { id: "gender", key: "gender", formatter: up },
